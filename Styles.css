@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px; /* to prevent content being hidden under fixed header */
+    background-color: #f4f4f4;
+}
+.nav {
+  display: flex;          /* makes items horizontal */
+  list-style: none;       /* removes bullets */
+  padding: 0;
+  margin: 0;
+  gap: 25px;              /* space between items */
+}
+.nav li {
+    position: relative;
+    list-style: none;
+    margin: 15px 10px;
+    align-items: center;
+}
+.nav li a {
+  text-decoration: none;  /* removes underline */
+  color: black;
+  font-weight: 500;
+  text-align: center;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eeeff1;
+    padding: 15px 0;
+}
+header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+header h1 span {
+    color: #007f5c;
+    text-decoration: none;
+}
+.intro-section {
+  background-image: url("images/Introcover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 60vh;
+  padding: 50px 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+.intro-section h1 {
+    color: #000000;
+}
+.intro-section h1 span {
+    color: #007f5c;
+}
