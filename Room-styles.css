@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 25px;
+  margin-left: 30px;
+}
+.nav li {
+    position: relative;
+    list-style: none;
+    margin: 15px 10px;
+    align-items: center;
+}
+.nav li a {
+  text-decoration: none; 
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  font-style: 'Poppins', sans-serif;
+}
+/* header section */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #06151d;
+}
+header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    padding-left: 20px;
+}
+header h1 img {
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+}
+/*
+header h1 span {
+    color: #007f5c;
+    text-decoration: none;
+}
+*/
+.Team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 80px;
+    background-color: #f4f4f4;
+}
+
+.Team-section .Team-ID {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 5px #dddddd;
+}
+
+/* Workshops section */
+.Workshops {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 40px;
+}
+
+/* contact-section section */
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    background-color: #0f3549;
+    color: white;
+}
+.contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-decoration: dashed;
+    text-decoration-color: white;
+}
+.contact-section p a {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+.contact-section .KC_Location img {
+    width: 90px;
+    height: auto;
+    border-radius: 8px;
+}
+.contact-section button{
+    background-color: #079398;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-section button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+/*KC_logo section */
+.KC_logo{
+    background-color: #0f3549;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.KC_logo img {
+    width: 250px;
+    height: auto;
+}
+/* footer section */
+
+footer {
+    background-color: #06151d;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 0;
+}
