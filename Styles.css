@@ -140,11 +140,38 @@ header h1 span {
     height: auto;
     border-radius: 5px;
 }
+/* location section */
+.location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 20px 40px 20px;
+}
+.location p a {
+    color: #000000;
+    text-decoration: none;
+}
+.KC_Location img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+/* social-media section */
+.social-media {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social-media a {
+    margin: 0 10px;
+    color: #224873;
+    font-size: 30px;
+    text-decoration: none;
+}
 
 /* footer section */
 
 footer {
-    background-color: #007f5c;
+    background-color: #0e4d72;
     color: #ffffff;
     text-align: center;
     padding: 15px 0;
