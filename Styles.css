@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    padding-top: 80px; /* to prevent content being hidden under fixed header */
+    padding-top: 80px;
     background-color: #f4f4f4;
 }
 .nav {
-  display: flex;          /* makes items horizontal */
-  list-style: none;       /* removes bullets */
+  display: flex;
+  list-style: none;
   padding: 0;
   margin: 0;
-  gap: 25px;              /* space between items */
+  gap: 25px;
 }
 .nav li {
     position: relative;
@@ -19,10 +21,11 @@ body {
     align-items: center;
 }
 .nav li a {
-  text-decoration: none;  /* removes underline */
+  text-decoration: none; 
   color: black;
-  font-weight: 500;
+  font-weight: bold;
   text-align: center;
+  font-style: 'Poppins', sans-serif;
 }
 header {
     position: fixed;
@@ -47,24 +50,39 @@ header h1 span {
     color: #007f5c;
     text-decoration: none;
 }
+/* intro-section section */
+
 .intro-section {
   background-image: url("images/Introcover.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  min-height: 60vh;
-  padding: 50px 20px;
-  text-align: center;
-  color: rgb(0, 0, 0);
+  height: 600px;
+  position: relative;
 }
-
-
 .intro-section h1 {
     color: #000000;
 }
 .intro-section h1 span {
     color: #007f5c;
+}
+.intro-section .into-home {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.into-home p{
+    font-size: 20px;
+    font-weight: 450;
 }
 .discover-btn {
     display: inline-block;
@@ -74,15 +92,27 @@ header h1 span {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* main-info section */
+
 .main-info h1 {
     text-align: center;
     margin-top: 40px;
     color: #007f5c;
-
 }
+.main-info h2 {
+    text-align: center;
+    color: #000000;
+}
+.main-info p {
+    text-align: center;
+    max-width: 600px;
+    margin: 10px auto 30px auto;
+    color: #333333;
+}
+/* club-container section */
 
 .club-container {
     display: flex;
@@ -108,6 +138,13 @@ header h1 span {
     height: auto;
     border-radius: 5px;
 }
+
+/* footer section */
+
 footer {
     background-color: #007f5c;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
 }
