@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 25px;
+  margin-left: 30px;
+}
+.nav li {
+    position: relative;
+    list-style: none;
+    margin: 15px 10px;
+    align-items: center;
+}
+.nav li a {
+  text-decoration: none; 
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  font-style: 'Poppins', sans-serif;
+}
+/* header section */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #050330;
+}
+header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    padding-left: 20px;
+}
+header h1 img {
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+}
+/*
+header h1 span {
+    color: #007f5c;
+    text-decoration: none;
+}
+*/
+/* intro-section section */
+.intro-section {
+  background-image: url("images/Introcover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+}
+.intro-section .about-club {
+    width: 500px;
+    height: auto;
+}
+/* About club section */
+.about-club {
+    position: absolute;
+    opacity: 0.8;
+    top: 100px;
+    left: 50px;
+    background: #079398;
+    border-radius: 10px;
+    padding: 30px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.About-club h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about-club p {
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+}
+.About-club{
+    padding: 10px 80px;
+    text-align: justify;
+    background-color: #f4f4f4;
+}
+.About-club h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.About-club h3 {
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.About-club p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+}
+/* How-we-work section */
+.How-we-work {
+    background-color: #ffffff;
+}
+.How-we-work h1{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    font-size: 30px;
+    padding: 40px 40px;
+    margin-left: 40px;
+    color: #000000;
+    letter-spacing: 1.5px;
+}
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 40px;
+}
+.work-container .work-item {
+    background-color: #9ac0c1;
+    border-radius: 8px;
+    width: 280px;
+    text-align: justify;
+    padding: 10px;
+    margin: 13px;
+}
+.work-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+/* Team-section section */
+.Team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 80px;
+}
+.Team h1 {
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+}
+.Team-section .Team-ID {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    margin: 8px;
+    box-shadow: 0 2px 5px #dddddd;
+}
+
+/* Workshops section */
+
+.Workshops {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 40px;
+    gap: 20px;
+}
+.basic-it-skills {
+    border-radius: 8px;
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.professional-life-skills {
+    border-radius: 8px;
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.Workshops h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color:#cdcbcb;
+    text-align: center;
+    text-decoration: underline;
+}
+.Workshops p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* testimonial section */
+.testimonial {
+    display: flex;
+    justify-content: center;
+    padding: 40px 80px;
+    background-color: #f4f4f4;
+}
+
+/* contact-section section */
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    background-color: #0f3549;
+    color: white;
+}
+.contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-decoration: dashed;
+    text-decoration-color: white;
+}
+.contact-section p a {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+.contact-section .KC_Location img {
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+}
+.contact-section button{
+    background-color: #079398;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-section button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+/*KC_logo section */
+.KC_logo{
+    background-color: #0f3549;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.KC_logo img {
+    width: 250px;
+    height: auto;
+}
+/* footer section */
+
+footer {
+    background-color: #06151d;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 0;
+}
