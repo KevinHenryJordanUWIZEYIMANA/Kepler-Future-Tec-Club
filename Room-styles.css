@@ -58,28 +58,163 @@ header h1 span {
     text-decoration: none;
 }
 */
+/* intro-section section */
+.intro-section {
+  background-image: url("images/Introcover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+}
+.intro-section .about-club {
+    width: 500px;
+    height: auto;
+}
+/* About club section */
+.about-club {
+    position: absolute;
+    opacity: 0.8;
+    top: 100px;
+    left: 50px;
+    background: #079398;
+    border-radius: 10px;
+    padding: 30px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.About-club h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about-club p {
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+}
+.About-club{
+    padding: 10px 80px;
+    text-align: justify;
+    background-color: #f4f4f4;
+}
+.About-club h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.About-club h3 {
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.About-club p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+}
+/* How-we-work section */
+.How-we-work {
+    background-color: #ffffff;
+}
+.How-we-work h1{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    font-size: 30px;
+    padding: 40px 40px;
+    margin-left: 40px;
+    color: #000000;
+    letter-spacing: 1.5px;
+}
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 40px;
+}
+.work-container .work-item {
+    background-color: #9ac0c1;
+    border-radius: 8px;
+    width: 280px;
+    text-align: justify;
+    padding: 10px;
+    margin: 13px;
+}
+.work-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+/* Team-section section */
 .Team-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 40px 80px;
-    background-color: #f4f4f4;
 }
-
+.Team h1 {
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+}
 .Team-section .Team-ID {
     border: 1px solid #dddddd;
     border-radius: 8px;
     width: 250px;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
+    margin: 8px;
     box-shadow: 0 2px 5px #dddddd;
 }
 
 /* Workshops section */
+
 .Workshops {
     display: flex;
     justify-content: space-around;
     padding: 40px 40px;
+    gap: 20px;
+}
+.basic-it-skills {
+    border-radius: 8px;
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.professional-life-skills {
+    border-radius: 8px;
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.Workshops h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color:#cdcbcb;
+    text-align: center;
+    text-decoration: underline;
+}
+.Workshops p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* testimonial section */
+.testimonial {
+    display: flex;
+    justify-content: center;
+    padding: 40px 80px;
+    background-color: #f4f4f4;
 }
 
 /* contact-section section */
