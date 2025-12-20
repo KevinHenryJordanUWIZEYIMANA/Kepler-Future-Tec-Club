@@ -47,24 +47,23 @@ header h1 {
     text-decoration: none;
     padding-left: 20px;
 }
-header h1 img {
-    width: 110px;
+header h1 .logo1 {
+    width: 150px;
     height: auto;
-    border-radius: 50%;
+    padding: 0 5px;
+    margin: 30px 0;
 }
-/*
-header h1 span {
-    color: #007f5c;
-    text-decoration: none;
+header h1 .logo2 {
+    width: 150px;
+    height: auto;
 }
-*/
 /* intro-section section */
 .intro-section {
-  background-image: url("images/Introcover.jpg");
+  background-image: url("images/Room1.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 700px;
   position: relative;
 }
 .intro-section .about-club {
@@ -239,7 +238,7 @@ header h1 span {
     color: white;
 }
 .contact-section .KC_Location img {
-    width: 90px;
+    width: 150px;
     height: auto;
     border-radius: 8px;
 }

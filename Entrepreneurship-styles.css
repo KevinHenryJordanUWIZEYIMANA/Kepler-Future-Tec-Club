@@ -47,18 +47,19 @@ header h1 {
     text-decoration: none;
     padding-left: 20px;
 }
-header h1 img {
-    width: 110px;
+header h1 .logo1 {
+    width: 150px;
+    height: auto;
+    padding: 0 20px;
+    margin: 30px 0;
+}
+header h1 .logo2 {
+    width: 90px;
     height: auto;
     border-radius: 50%;
 }
-/*
-header h1 span {
-    color: #007f5c;
-    text-decoration: none;
-}
-*/
 /* intro-section section */
+
 .intro-section {
   background-image: url("images/Introcover.jpg");
   background-size: cover;
