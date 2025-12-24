@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 80px;
+    background-color: #ededed;
 }
 .nav {
   display: flex;
@@ -69,6 +70,20 @@ header h1 .logo2 {
 .intro-section .about-club {
     width: 500px;
     height: auto;
+}
+.about-club button {
+    background-color: #06151d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.about-club button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
 }
 /* About club section */
 .about-club {

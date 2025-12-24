@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, #41b45e 0%, #224973 100%);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo1, .logo2 {
+    max-height: 60px;
+    width: auto;
+}
+/* Application Intro Section */
+.application-intro {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.application-intro h1 {
+    color: #224973;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.application-intro p {
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+/* Form Styles */
+.application-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.application-form label {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.application-form input,
+.application-form select,
+.application-form textarea {
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.application-form input:focus,
+.application-form select:focus,
+.application-form textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.2);
+}
+
+.application-form button {
+    margin-top: 25px;
+    padding: 12px 30px;
+    background: #224973;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.application-form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(102, 126, 234, 0.3);
+}
+
+.application-form button:active {
+    transform: translateY(0);
+}
+
+/* Instructions Section */
+.instructions-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.instructions-section h2 {
+    color: #224973;
+    margin-bottom: 25px;
+    font-size: 1.8em;
+}
+
+.instructions-section ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.instructions-section li {
+    margin-bottom: 12px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.instructions-section p {
+    color: #666;
+    margin-top: 20px;
+}
+
+.instructions-section a {
+    color: #224973;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #224973;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .application-intro,
+    .instructions-section {
+        margin: 30px 20px;
+        padding: 25px;
+    }
+
+    .application-intro h1 {
+        font-size: 1.6em;
+    }
+
+    .instructions-section h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 480px) {
+    .application-intro,
+    .instructions-section {
+        margin: 20px 15px;
+        padding: 20px;
+    }
+
+    .application-intro h1,
+    .instructions-section h2 {
+        font-size: 1.4em;
+    }
+
+    .logo1, .logo2 {
+        max-height: 45px;
+    }
+}
