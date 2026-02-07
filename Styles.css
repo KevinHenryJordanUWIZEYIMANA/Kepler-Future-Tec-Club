@@ -125,8 +125,9 @@ header img {
 }
 .club-box:hover {
     transform: scale(1.05);
-    transition: transform 0.3s;
+    transition: transform 0.6s ease;
 }
+
 .club-container .club-box {
     border: 1px solid #dddddd;
     border-radius: 8px;
