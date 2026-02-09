@@ -141,6 +141,16 @@ header img {
     height: auto;
     border-radius: 5px;
 }
+.club-box p a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007f5c;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
 /* location section */
 .location {
     display: flex;
