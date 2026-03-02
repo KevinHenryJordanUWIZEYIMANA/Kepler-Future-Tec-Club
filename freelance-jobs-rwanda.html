@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rwanda Freelance Hub | Online Jobs</title>
+  <link rel="stylesheet" href="freelance-jobs-rwanda.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Rwanda Freelance Hub</div>
+    <nav>
+      <a href="#jobs">Jobs</a>
+      <a href="#services">Services</a>
+      <a href="#apply">Apply</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Get Online Freelance Jobs from Rwanda</h1>
+      <p>
+        A simple platform for freelancers who provide cyber services like
+        PowerPoint design, document formatting, CV writing, data entry,
+        translation, and digital support.
+      </p>
+    </section>
+
+    <section id="jobs" class="panel">
+      <h2>Available Jobs</h2>
+      <div class="filters">
+        <label for="jobType">Filter by service</label>
+        <select id="jobType">
+          <option value="all">All services</option>
+          <option value="ppt">PowerPoint</option>
+          <option value="docs">Documents</option>
+          <option value="data">Data Entry</option>
+          <option value="design">Design</option>
+        </select>
+      </div>
+      <div id="jobList" class="grid"></div>
+    </section>
+
+    <section id="services" class="panel">
+      <h2>Cyber Services You Can Offer</h2>
+      <ul>
+        <li>PowerPoint presentations for schools and businesses</li>
+        <li>Document typing, editing, and formatting</li>
+        <li>CV and cover letter writing</li>
+        <li>Data entry and spreadsheet cleanup</li>
+        <li>Basic poster and social media graphic design</li>
+      </ul>
+    </section>
+
+    <section id="apply" class="panel">
+      <h2>Apply as a Freelancer</h2>
+      <form id="applicationForm" novalidate>
+        <div class="field">
+          <label for="fullName">Full name</label>
+          <input id="fullName" name="fullName" type="text" required />
+        </div>
+
+        <div class="field">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+
+        <div class="field">
+          <label for="service">Main service</label>
+          <select id="service" name="service" required>
+            <option value="">Choose one</option>
+            <option value="ppt">PowerPoint creation</option>
+            <option value="docs">Document services</option>
+            <option value="data">Data entry</option>
+            <option value="design">Graphic design</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="experience">Experience summary</label>
+          <textarea id="experience" name="experience" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Submit application</button>
+        <p id="formMessage" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built for freelancers in Rwanda to connect with online clients.</p>
+  </footer>
+
+  <script src="freelance-jobs-rwanda.js"></script>
+</body>
+</html>
